@@ -412,7 +412,7 @@ widgets:
       class_name: "network-info-widget"
       exec_options:
         run_cmd: "powershell.exe -ExecutionPolicy Bypass -File C:\\Users\\%username%\\.yasb\\network-speed.ps1"
-        run_interval: 200                                        # every 5 minutes
+        run_interval: 1000                                        # every 5 minutes
         return_format: "json"
 #      callbacks:
 #        on_left: "exec cmd /c Taskmgr"
